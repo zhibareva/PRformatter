@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>The PR Formatter</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <script src="Formatter.js"></script>
+</head>
+
+<body>
+
+    <div class="modal-header">
+    <h1 class="logo">
+      <img class="logo-icon" src="images/tproger-logo.ico">The PR Formatter
+    </h1>
+  </div>
+  
+  <div class="modal-content">
+    <div class="flex-container">
+        <div class="flex">
+            <label for="projects">Choose a project:</label>
+            <select name="projects" id="projects" >
+            <option value="ICRS">Icarus</option>
+            <option value="ARGO">Argonauts</option>
+            <option value="ODYS">Odyssey</option>
+            </select>
+        </div>
+        <div class="flex">
+            <br>
+            <input name="number" type="text" size="10" placeholder="story number">
+        </div>
+      </div>
+    <div>
+        <button id="button" type="button" >Collect TCs</button>
+    </div>
+  </div>
+</body>
+
+</html>
